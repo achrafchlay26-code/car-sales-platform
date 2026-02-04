@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f2f4f7;
+}
+
+header {
+  background: linear-gradient(135deg, #000, #333);
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.cars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  padding: 30px;
+}
+
+.car {
+  background: white;
+  border-radius: 12px;
+  padding: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.car:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.car img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.car h3 {
+  margin: 10px 0 5px;
+}
+
+.price {
+  color: #2ecc71;
+  font-size: 18px;
+  font-weight: bold;
+}
