@@ -49,3 +49,18 @@ header h1 {
   font-size: 18px;
   font-weight: bold;
 }
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #25D366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #1ebe5d;
+}
+
